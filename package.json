@@ -24,5 +24,13 @@
     "git-cz": "^4.8.0",
     "solhint": "^3.3.6",
     "truffle-plugin-verify": "^0.5.20"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
