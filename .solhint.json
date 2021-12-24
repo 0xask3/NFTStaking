@@ -1,0 +1,14 @@
+{
+  "extends": "solhint:default",
+  "rules": {
+    "max-line-length": ["error",100],
+    "no-unused-vars": "warn",
+    "no-empty-blocks": "warn",
+    "func-name-mixedcase": "warn",
+    "func-param-name-mixedcase": "warn",
+    "var-name-mixedcase": "warn",
+    "func-order": "warn",
+    "reentrancy": "warn",
+    "state-visibility": "warn"
+  }
+}
